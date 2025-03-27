@@ -24,6 +24,7 @@
   max-width: 660px;
   display: flex;
   flex-direction: column;
+  margin-top: 19px;
   gap: 20px
 }
 
@@ -36,8 +37,7 @@
   margin: 0;
 }
 
-.about__circle,
-.about__circle_animation_blurred {
+.about__circle {
   width: 426px;
   height: 426px;
   background-color: #1878dc;
@@ -45,11 +45,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
-}
-
-.about__circle {
-  z-index: 1;
-}
+  z-index: 1;}
 
 .about__circle_animation_blurred {
   z-index: 0;

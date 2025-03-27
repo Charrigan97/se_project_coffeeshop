@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -31,7 +31,6 @@
   font-weight: normal;
   font-size: 60px;
   margin-right: 8px;
-  font-family: "Noto Serif";
   line-height: 72px;
   display: block;
 }
@@ -39,8 +38,11 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
   color: #333;
   z-index: 1;
 }
@@ -62,4 +64,10 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
