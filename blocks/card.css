@@ -1,8 +1,5 @@
 .card {
-  flex: 1;
-  min-width: 250px;
   width: 540px;
-  margin: 0;
 }
 
 .card__title {
