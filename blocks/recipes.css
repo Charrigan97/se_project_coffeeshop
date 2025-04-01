@@ -15,7 +15,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
-  max-width: 580px
+  max-width: 580px;
 }
 
 .recipes__subtitle {
@@ -49,6 +49,6 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   margin: 24px 0 0 0;
 }
